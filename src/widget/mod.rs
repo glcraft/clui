@@ -1,5 +1,5 @@
 use crate::event_listener::Event;
-use super::{Frame, util::{self, Rect, TuiResult}};
+use crate::{backend::Frame, util::{self, Rect, TuiResult}};
 
 mod text_scroll;
 mod paragraph;
