@@ -1,8 +1,7 @@
 pub mod widget;
 pub mod event_listener;
 pub mod util;
-
-use util::*;
+pub mod style;
 pub mod backend;
 
 pub fn terminal_size() -> (u16,u16) {

@@ -35,9 +35,7 @@ pub struct Paragraph {
     lines: Vec<Line>,
     alignment: Alignments
     // TODO: scroll
-    // TODO: spans (style)
-    // TODO: 
-    // TODO: 
+    // TODO: styles
 }
 
 impl Paragraph {
